@@ -1,6 +1,8 @@
 ## Pedestrian Traffic Patterns
 
-![alt text](images/sample.png)
+<p align="center">
+  <img src="images/sample.png" width="600">
+</p>
 
 Sample from HOG-based human shape detection algorithm for tracking pedestrian flow in Downtown Brooklyn.
 
@@ -13,10 +15,12 @@ I borrowed heavily from code created by Madhawa Vidanapathirana, who has posted 
 Using his code as a starting point, I added shapes and counters to track ordinary crossings and the frequency of jaywalking at the intersection of Jay Street and Willoughby Street in [Brooklyn](https://www.google.com/maps/place/Jay+St+-+MetroTech+Station/@40.6922507,-73.9878264,19z/data=!3m1!4b1!4m5!3m4!1s0x89c25a4b934481c7:0x4f37e8720aab325!8m2!3d40.6922507!4d-73.9872792 "Brooklyn"):
 
 <p align="center">
-  <img src="images/overhead.png" width="500">
+  <img src="images/overhead.png" width="600">
 </p>
 
-![alt text](images/street.png)
+<p align="center">
+  <img src="images/street.png" width="600">
+</p>
 
 I ended up trying different algorithms (HOG, Haar Cascade, CNN) for human shape detection. HOG and Haar Cascade were pretty accurate and way faster than CNN. But CNN tracked just about everything.
 
