@@ -4,10 +4,6 @@
   <img src="images/sample.png" width="600">
 </p>
 
-<p align="center">
-  <img src="sample_results/cnn.mov">
-</p>
-
 Sample from HOG-based human shape detection algorithm for tracking pedestrian flow in Downtown Brooklyn.
 
 ### Overview 
